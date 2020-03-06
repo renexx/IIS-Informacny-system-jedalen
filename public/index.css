@@ -1,0 +1,327 @@
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+.card-deck{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+h1{
+    align: center;
+}
+.list-unstyled{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 40px;
+}
+img{
+    width: 20%;
+    height: 15vw;
+}
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.menu-block{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+h3, h2{
+    text-align: center;
+}
+.objednat{
+    position: relative;
+    right: 20%;
+    bottom: -130px;
+}
+.cena{
+    position: relative;
+    bottom: -140px;
+    right: 50%;
+    font-weight: bold;
+}
+
+.tabulka{
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 10%;
+}
+.registracia{
+    margin-right: 20%;
+    margin-left: 35%;
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 10%;
+}
+
+.filter  {
+    top: 45px;
+    left: 115px;
+}
+.navbar-brand{
+    padding: 0;
+    margin: 0;
+
+}
+.logo{
+    width:50px;
+    height:50px;
+}
+
+.jedalnicek{
+    background-color: #E6005A;
+    border-color: #E6005A;
+    position: relative;
+    bottom: 12px;
+    left: 20px;
+    width: 45%;
+}
+.jedalnicek:hover{
+    background-color: #C6004E;
+    border-color: #C6004E;
+}
+.deck-vstup{
+    width: 67vw;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+.deck-vstup-last{
+    width: 45vw;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+.vstup{
+    border: none;
+}
+
+.img-vstup{
+    height: 20vw;
+    width: 20vw;
+}
+
+.btn-vstup{
+    width: 20vw;
+    margin-top: 5px;
+    color: #ffffff;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5px auto; /* 15% from the top and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  /* Position it in the top right corner outside of the modal */
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+/* Close button on hover */
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.list-driver{
+    margin: 10%;
+}
+.list-prehlad{
+    margin: 5%;
+    margin-top: 3%;
+}
+.list-vybavuje{
+    margin: 10%;
+}
+.nadpis{
+    left: 20px;
+}
+
+.novaP{
+    margin-top: 5%;
+    margin-right: 25%;
+    margin-left: 25%;
+    flex-wrap: wrap;
+    padding-bottom: 10%;
+}
+
+.list-ukoncit{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    border = none;
+}
+
+.kateg{
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+.objednat2{
+    margin-left: 2%;
+
+    position: relative;
+    right: 20%;
+    bottom: -150px;
+}
+.cenaIS{
+    position: relative;
+    bottom: -150px;
+    right: 35%;
+    font-weight: bold;
+}
+
+.media{
+    margin-left: 0%;
+}
+.pridat{
+    top: 1000px;
+}
+
+.card-check{
+    height: 15vw;
+    width: 15vw;
+    margin-left: 5%;
+}
+.sledovanie{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.sledovanie .card-title{
+    text-align: center;
+}
+
+.nav-item .dropdown{
+    top: 0px;
+    left: 0px;
+}
+ td, th{
+    padding: 8px;
+    text-align: left;
+    border: 0px solid #ddd;
+     border-bottom: 1px solid #bebebe;
+}
+.table-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 0;
+}
+
+.last{
+    width: 31%;
+}
+
+.last-two{
+    width: 62%;
+}
+
+.gray{
+    filter: grayscale(100%);
+}
+
+.not-active {
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+    opacity: 0.2;
+}
+
+.list-objednavky{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 1%;
+    border = none;
+}
+label span {color : red;}
